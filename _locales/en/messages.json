@@ -1,0 +1,30 @@
+{
+  "extension_name": {
+    "message": "Copy Google Maps Plus Code",
+    "description": "Extension name shown in Chrome and Web Store"
+  },
+  "extension_description": {
+    "message": "Reads coordinates from clipboard, generates the matching Plus Code, and copies it automatically.",
+    "description": "Extension description"
+  },
+  "action_title": {
+    "message": "Convert to Plus Code",
+    "description": "Tooltip for extension action button in toolbar"
+  },
+  "toast_success": {
+    "message": "Plus Code copied!",
+    "description": "Toast message displayed when code is copied successfully"
+  },
+  "error_invalid_format": {
+    "message": "Invalid format: expected \"lat, lng\".",
+    "description": "Error when clipboard coordinate format is invalid"
+  },
+  "error_invalid_coords": {
+    "message": "Invalid latitude or longitude.",
+    "description": "Error when latitude or longitude are not numbers"
+  },
+  "error_prefix": {
+    "message": "Error: ",
+    "description": "Alert prefix for error message"
+  }
+}

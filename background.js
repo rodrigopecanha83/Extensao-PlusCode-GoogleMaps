@@ -940,19 +940,23 @@ chrome.action.onClicked.addListener((tab) => {
       try {
         const textoClipboard = await navigator.clipboard.readText();
         const partes = textoClipboard.split(',');
-        if (partes.length < 2) throw 'Formato inválido: esperado "lat, lng".';
+        if (partes.length < 2) {
+          throw chrome.i18n.getMessage('error_invalid_format') || 'Formato inválido: esperado "lat, lng".';
+        }
 
         const lat = parseFloat(partes[0].trim().replace(',', '.'));
         const lng = parseFloat(partes[1].trim().replace(',', '.'));
 
-        if (isNaN(lat) || isNaN(lng)) throw 'Latitude ou longitude inválidas.';
+        if (isNaN(lat) || isNaN(lng)) {
+          throw chrome.i18n.getMessage('error_invalid_coords') || 'Latitude ou longitude inválidas.';
+        }
 
         const plusCode = OpenLocationCode.encode(lat, lng, 10);
 
         await navigator.clipboard.writeText(plusCode);
 
         const toast = document.createElement('div');
-        toast.textContent = 'Plus Code copiado!';
+        toast.textContent = chrome.i18n.getMessage('toast_success') || 'Plus Code copiado!';
         Object.assign(toast.style, {
           position: 'fixed',
           top: '20px',
@@ -968,7 +972,8 @@ chrome.action.onClicked.addListener((tab) => {
         document.body.appendChild(toast);
         setTimeout(() => toast.remove(), 1500);
       } catch (e) {
-        alert('Erro: ' + e);
+        const prefixoErro = chrome.i18n.getMessage('error_prefix') || 'Erro: ';
+        alert(prefixoErro + e);
       }
     }
   });

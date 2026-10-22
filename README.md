@@ -7,6 +7,7 @@ Extensão para o Google Chrome que lê coordenadas geográficas da área de tran
 * **Conversão Automática:** Converte coordenadas no formato latitude e longitude copiadas diretamente em Plus Codes do Google Maps.
 * **OpenLocationCode Integrado:** Processamento e cálculo de geolocalização totalmente local e offline utilizando a biblioteca OpenLocationCode.
 * **Notificação Toast:** Exibe feedback visual na aba ativa informando o Plus Code gerado e copiado.
+* **Suporte Multilíngue (i18n):** Suporte nativo completo a 4 idiomas: Português do Brasil (pt_BR), Inglês (en), Espanhol (es) e Francês (fr).
 
 ## Pré-requisitos
 
@@ -25,6 +26,11 @@ Extensão para o Google Chrome que lê coordenadas geográficas da área de tran
 3. O Plus Code correspondente será copiado automaticamente e uma notificação na tela confirmará a conversão.
 
 ## Histórico de Versões
+
+### v1.1.0 - 2026-10-22
+- Adicionada internacionalização completa (i18n) via `_locales`.
+- Suporte a 4 idiomas: Português do Brasil (`pt_BR`), Inglês (`en`), Espanhol (`es`) e Francês (`fr`).
+- Adaptação dinâmica de nome, descrição, títulos da ação, toasts e mensagens de alerta conforme o idioma do navegador.
 
 ### v1.0.0 - 2026-10-22
 - Lançamento inicial da extensão em Manifest V3.

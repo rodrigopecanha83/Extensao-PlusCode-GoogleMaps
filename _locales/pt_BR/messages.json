@@ -1,0 +1,30 @@
+{
+  "extension_name": {
+    "message": "Copiar Plus Code do Google Maps",
+    "description": "Nome da extensão exibido no Chrome e na Web Store"
+  },
+  "extension_description": {
+    "message": "Lê coordenadas da área de transferência, gera o Plus Code correspondente e copia automaticamente.",
+    "description": "Descrição da extensão"
+  },
+  "action_title": {
+    "message": "Converter para Plus Code",
+    "description": "Tooltip do botão da extensão na barra de ferramentas"
+  },
+  "toast_success": {
+    "message": "Plus Code copiado!",
+    "description": "Mensagem toast exibida quando o código é copiado com sucesso"
+  },
+  "error_invalid_format": {
+    "message": "Formato inválido: esperado \"lat, lng\".",
+    "description": "Erro quando o formato de coordenadas copiado não é válido"
+  },
+  "error_invalid_coords": {
+    "message": "Latitude ou longitude inválidas.",
+    "description": "Erro quando os valores de latitude ou longitude não são números"
+  },
+  "error_prefix": {
+    "message": "Erro: ",
+    "description": "Prefixo de alerta para mensagem de erro"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "extension_name": {
+    "message": "Copier le Plus Code de Google Maps",
+    "description": "Nom de l'extension affiché dans Chrome et le Web Store"
+  },
+  "extension_description": {
+    "message": "Lit les coordonnées du presse-papiers, génère le Plus Code correspondant et le copie automatiquement.",
+    "description": "Description de l'extension"
+  },
+  "action_title": {
+    "message": "Convertir en Plus Code",
+    "description": "Info-bulle du bouton de l'extension dans la barre d'outils"
+  },
+  "toast_success": {
+    "message": "Plus Code copié !",
+    "description": "Message toast affiché lorsque le code est copié avec succès"
+  },
+  "error_invalid_format": {
+    "message": "Format non valide : \"lat, lng\" attendu.",
+    "description": "Erreur lorsque le format de coordonnées copié n'est pas valide"
+  },
+  "error_invalid_coords": {
+    "message": "Latitude ou longitude non valide.",
+    "description": "Erreur lorsque la latitude ou la longitude n'est pas un nombre"
+  },
+  "error_prefix": {
+    "message": "Erreur : ",
+    "description": "Préfixe pour les alertes d'erreur"
+  }
+}

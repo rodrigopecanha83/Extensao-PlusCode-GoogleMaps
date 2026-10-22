@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Copiar Plus Code do Google Maps",
+  "version": "1.0.0",
+  "description": "Lê coordenadas do clipboard, gera Plus Code e mostra toast.",
+  "icons": {
+    "16": "favicon16.png",
+    "32": "favicon32.png",
+    "64": "favicon64.png",
+    "128": "favicon128.png",
+    "512": "favicon512.png"
+  },
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "clipboardRead",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_title": "Converter +Code"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

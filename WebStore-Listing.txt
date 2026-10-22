@@ -160,6 +160,12 @@ A extensão tem como único propósito permitir que o usuário converta coordena
 Em Inglês:
 The single purpose of this extension is to allow users to convert geographic coordinates (latitude and longitude) copied to their clipboard into a Google Maps Plus Code (Open Location Code) with a single click, automatically copying the result back and showing an on-screen toast notification on the active tab.
 
+Em Espanhol:
+El único propósito de esta extensión es permitir que el usuario convierta coordenadas geográficas (latitud y longitud) copiadas al portapapeles en un Plus Code (Open Location Code) de Google Maps con un solo clic, copiando automáticamente el resultado de vuelta y mostrando una notificación visual (toast) en la pestaña activa.
+
+Em Francês:
+Le seul objectif de cette extension est de permettre à l'utilisateur de convertir des coordonnées géographiques (latitude et longitude) copiées dans le presse-papiers en un Plus Code (Open Location Code) Google Maps en un seul clic, en copiant automatiquement le résultat en retour et en affichant une notification visuelle (toast) sur l'onglet actif.
+
 
 --------------------------------------------------------------------------------
 2.2 JUSTIFICATIVAS TÉCNICAS DE CADA PERMISSÃO SOLICITADA

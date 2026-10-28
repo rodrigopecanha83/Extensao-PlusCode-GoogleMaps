@@ -27,6 +27,9 @@ Extensão para o Google Chrome que lê coordenadas geográficas da área de tran
 
 ## Histórico de Versões
 
+### v1.1.1 - 2026-10-28
+- Correção de bugs.
+
 ### v1.1.0 - 2026-10-22
 - Adicionada internacionalização completa (i18n) via `_locales`.
 - Suporte a 4 idiomas: Português do Brasil (`pt_BR`), Inglês (`en`), Espanhol (`es`) e Francês (`fr`).

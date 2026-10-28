@@ -184,9 +184,6 @@ Strictly required to read the latitude and longitude coordinates that the user p
 • clipboardWrite:
 Required to automatically write the generated Google Maps Plus Code back to the user's system clipboard so it can be pasted immediately anywhere.
 
-• host_permissions (<all_urls>):
-Required on-demand so the extension can show the confirmation toast notification overlay on whichever active webpage the user happens to be browsing when clicking the action button.
-
 
 --------------------------------------------------------------------------------
 2.3 REMOTE CODE DECLARATION

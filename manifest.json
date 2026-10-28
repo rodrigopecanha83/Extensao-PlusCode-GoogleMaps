@@ -18,9 +18,6 @@
     "clipboardRead",
     "clipboardWrite"
   ],
-  "host_permissions": [
-    "<all_urls>"
-  ],
   "action": {
     "default_title": "__MSG_action_title__"
   },

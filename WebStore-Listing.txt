@@ -10,46 +10,7 @@ BLOCO 1: DETALHES DO PRODUTO (Aba "Detalhes do app")
 ================================================================================
 
 --------------------------------------------------------------------------------
-1.1 PORTUGUÊS (BRASIL) — Idioma Padrão
---------------------------------------------------------------------------------
-
-[TÍTULO DO PACOTE]
-Copiar Plus Code do Google Maps
-
-[RESUMO DO PACOTE (130 / 132 caracteres)]
-Converte coordenadas (lat, lng) copiadas para a área de transferência em Plus Codes do Google Maps com um clique e feedback toast.
-
-[CATEGORIA SUGERIDA]
-Produtividade (ou Ferramentas para Desenvolvedores)
-
-[IDIOMA PRINCIPAL]
-Português (Brasil)
-
-[DESCRIÇÃO DETALHADA]
-Converta coordenadas geográficas (latitude e longitude) diretamente em Plus Codes do Google Maps de forma instantânea e sem complicações!
-
-Com o Copiar Plus Code do Google Maps, você ganha agilidade no seu fluxo de trabalho: basta copiar qualquer coordenada para a área de transferência e clicar no ícone da extensão. A conversão é feita na hora de forma offline e o Plus Code resultante é copiado automaticamente de volta para a sua área de transferência com uma notificação visual na tela.
-
-Principais Recursos:
-- Conversão em Um Clique: Transforma coordenadas copiadas (ex: -22.9068, -43.1729) no Plus Code correspondente.
-- Cópia Automática: O código gerado já fica disponível imediatamente na sua área de transferência para colar onde precisar.
-- Notificação Visual Discreta: Feedback por toast elegante na página para confirmar que a conversão foi bem-sucedida.
-- Suporte Multilíngue Completo: Interface adaptada para Português, Inglês, Espanhol e Francês.
-- Processamento 100% Offline: Utiliza a biblioteca oficial OpenLocationCode diretamente no seu navegador, sem enviar nenhuma coordenada para servidores externos.
-
-Privacidade e Segurança em Primeiro Lugar:
-- Zero coleta de dados pessoais ou histórico de navegação.
-- Todo o cálculo matemático é executado de forma puramente local.
-- Não utiliza rastreadores, anúncios ou conexões de rede em segundo plano.
-
-Como Usar:
-1. Copie as coordenadas geográficas (latitude, longitude).
-2. Clique no ícone da extensão na barra de ferramentas do seu navegador.
-3. Cole o Plus Code onde desejar!
-
-
---------------------------------------------------------------------------------
-1.2 ENGLISH (INGLÊS) — Listagem Internacional
+1.1 ENGLISH (INGLÊS) — Idioma Padrão / Principal
 --------------------------------------------------------------------------------
 
 [PACKAGE TITLE]
@@ -57,6 +18,12 @@ Copy Google Maps Plus Code
 
 [SUMMARY (124 / 132 characters)]
 Convert copied GPS coordinates (lat, lng) into Google Maps Plus Codes with a single click, instant copy, and toast feedback.
+
+[CATEGORIA SUGERIDA]
+Productivity (ou Developer Tools)
+
+[IDIOMA PRINCIPAL]
+English (United States)
 
 [DETAILED DESCRIPTION]
 Quickly convert geographic coordinates (latitude and longitude) into Google Maps Plus Codes with zero friction!
@@ -82,7 +49,40 @@ How to Use:
 
 
 --------------------------------------------------------------------------------
-1.3 ESPAÑOL (ESPANHOL) — Listado Internacional
+1.2 PORTUGUÊS (BRASIL) — Listagem Secundária
+--------------------------------------------------------------------------------
+
+[TÍTULO DO PACOTE]
+Copiar Plus Code do Google Maps
+
+[RESUMO DO PACOTE (130 / 132 caracteres)]
+Converte coordenadas (lat, lng) copiadas para a área de transferência em Plus Codes do Google Maps com um clique e feedback toast.
+
+[DESCRIÇÃO DETALHADA]
+Converta coordenadas geográficas (latitude e longitude) diretamente em Plus Codes do Google Maps de forma instantânea e sem complicações!
+
+Com o Copiar Plus Code do Google Maps, você ganha agilidade no seu fluxo de trabalho: basta copiar qualquer coordenada para a área de transferência e clicar no ícone da extensão. A conversão é feita na hora de forma offline e o Plus Code resultante é copiado automaticamente de volta para a sua área de transferência com uma notificação visual na tela.
+
+Principais Recursos:
+- Conversão em Um Clique: Transforma coordenadas copiadas (ex: -22.9068, -43.1729) no Plus Code correspondente.
+- Cópia Automática: O código gerado já fica disponível imediatamente na sua área de transferência para colar onde precisar.
+- Notificação Visual Discreta: Feedback por toast elegante na página para confirmar que a conversão foi bem-sucedida.
+- Suporte Multilíngue Completo: Interface adaptada para Português, Inglês, Espanhol e Francês.
+- Processamento 100% Offline: Utiliza a biblioteca oficial OpenLocationCode diretamente no seu navegador, sem enviar nenhuma coordenada para servidores externos.
+
+Privacidade e Segurança em Primeiro Lugar:
+- Zero coleta de dados pessoais ou histórico de navegação.
+- Todo o cálculo matemático é executado de forma puramente local.
+- Não utiliza rastreadores, anúncios ou conexões de rede em segundo plano.
+
+Como Usar:
+1. Copie as coordenadas geográficas (latitude, longitude).
+2. Clique no ícone da extensão na barra de ferramentas do seu navegador.
+3. Cole o Plus Code onde desejar!
+
+
+--------------------------------------------------------------------------------
+1.3 ESPAÑOL (ESPANHOL) — Listagem Secundária
 --------------------------------------------------------------------------------
 
 [TÍTULO DEL PAQUETE]
@@ -110,12 +110,12 @@ Privacidad y Seguridad Primero:
 
 Cómo Usar:
 1. Copia las coordenadas GPS (latitud, longitud) al portapapeles.
-2. Haz clic en el icono de la extensión en la barra de herramientas de Chrome.
+2. Haz clic en el icono de la extensión en la barra de ferramentas de Chrome.
 3. ¡Pega tu Plus Code donde quieras!
 
 
 --------------------------------------------------------------------------------
-1.4 FRANÇAIS (FRANCÊS) — Fiche Internationale
+1.4 FRANÇAIS (FRANCÊS) — Listagem Secundária
 --------------------------------------------------------------------------------
 
 [TITRE DU PAQUET]
@@ -154,11 +154,11 @@ BLOCO 2: PRIVACIDADE (Aba "Privacidade" do Chrome Developer Dashboard)
 --------------------------------------------------------------------------------
 2.1 DESCRIÇÃO DO ÚNICO PROPÓSITO (Single Purpose Policy)
 --------------------------------------------------------------------------------
+Em Inglês (Padrão):
+The single purpose of this extension is to allow users to convert geographic coordinates (latitude and longitude) copied to their clipboard into a Google Maps Plus Code (Open Location Code) with a single click, automatically copying the result back and showing an on-screen toast notification on the active tab.
+
 Em Português:
 A extensão tem como único propósito permitir que o usuário converta coordenadas geográficas (latitude e longitude) copiadas na área de transferência em um Plus Code (Open Location Code) do Google Maps com um único clique, copiando o resultado de volta e exibindo um aviso visual (toast) na aba ativa.
-
-Em Inglês:
-The single purpose of this extension is to allow users to convert geographic coordinates (latitude and longitude) copied to their clipboard into a Google Maps Plus Code (Open Location Code) with a single click, automatically copying the result back and showing an on-screen toast notification on the active tab.
 
 Em Espanhol:
 El único propósito de esta extensión es permitir que el usuario convierta coordenadas geográficas (latitud y longitud) copiadas al portapapeles en un Plus Code (Open Location Code) de Google Maps con un solo clic, copiando automáticamente el resultado de vuelta y mostrando una notificación visual (toast) en la pestaña activa.

@@ -190,3 +190,9 @@ Required to automatically write the generated Google Maps Plus Code back to the 
 --------------------------------------------------------------------------------
 • Selection in dashboard: "No, I am not using remote code".
 • Justification: All code and libraries (including the OpenLocationCode algorithm and localization bundles) are 100% packaged locally inside the extension.
+
+
+--------------------------------------------------------------------------------
+2.4 PRIVACY POLICY URL (Aba "Privacidade" — Campo URL da Política de Privacidade)
+--------------------------------------------------------------------------------
+https://rodrigopecanha83.github.io/Privacy-Policies/PlusCode-GoogleMaps-Privacy.html
